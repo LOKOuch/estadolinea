@@ -1,0 +1,17 @@
+{
+  "name": "estadolinea",
+  "version": "1.0.0",
+  "description": "Monitoreo de líneas en tiempo real con PostgreSQL y worker local",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "worker": "node worker/pingWorker.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}

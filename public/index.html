@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitoreo de Líneas</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>Monitoreo de Líneas en Tiempo Real</h1>
+<select id="filtro"></select>
+<div id="establecimientos"></div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="cerrar" class="cerrar">&times;</span>
+        <h2>Historial</h2>
+        <canvas id="chart"></canvas>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
